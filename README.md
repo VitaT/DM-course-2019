@@ -4,7 +4,7 @@
 
 ### Class1 (2019-11-12)
 * GitHub ir versijų kontrolė
-* 
+* Tvarkingo R kodo [gaires](https://google.github.io/styleguide/Rguide.html)
 * R pagrindai, tvarkingos lentelės ir jų manipuliacija
 
 ### Class2 (2019-11-13)
@@ -35,6 +35,7 @@
 Galima kreiptis, jei kyla klausimų:
 
 Vita Tomkutė - vita.tomkute@gmc.vu.lt
+
 Erinija Pranckevičienė - 
 
 
