@@ -24,6 +24,8 @@
 * unsupervised learning
 
 ### Class7 (2019-12-03)
+* Theory test?
+* some other stuff from unsupervised learning?
 
 ### Class8 (2019-12-04)
 * projektinių darbų pristatymai
