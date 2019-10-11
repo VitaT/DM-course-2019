@@ -29,5 +29,14 @@
 * projektinių darbų pristatymai
 
 
+# kita informacija
+
+### Kontaktai:
+Galima kreiptis, jei kyla klausimų:
+
+Vita Tomkutė - vita.tomkute@gmc.vu.lt
+Erinija Pranckevičienė - 
+
+
 
 
