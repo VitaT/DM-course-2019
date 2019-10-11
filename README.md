@@ -38,6 +38,10 @@ Galima kreiptis, jei kyla klausimų:
 
 Vita Tomkutė - vita.tomkute@gmc.vu.lt
 
+
+# nestruktūrizuota informacija
+Geri video apie neuroninius tinklus https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
+Gan nemažai statistinių terminų ir ML procesų paaiškinta paprastai, perteikiant esmę https://www.youtube.com/user/joshstarmer
 Erinija Pranckevičienė - 
 
 
