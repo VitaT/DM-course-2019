@@ -9,10 +9,11 @@
 * daugiau užduočių ir teorijos: R for datascience http://r4ds.had.co.nz/
 * jei norite tapti R asais (šitam kursui nebūtina): Advanced R https://adv-r.hadley.nz/
 
-#### Book exercises
+#### info apie tvarkingą darbą
+* https://google.github.io/styleguide/Rguide.html
+* https://style.tidyverse.org/
+* https://worldpece.org/sites/default/files/datastyle.pdf
 
-2.4.1
+#### užduotys
+* Class1.Rmd 
 
-2.4.7
-
-#### 
