@@ -1,11 +1,11 @@
 # Data Mining course 2019 Autumn
 
-## Planas
+## Syllabus
 
 ### Class1 (2019-11-12)
-* GitHub ir versijų kontrolė
-* Tvarkingo R kodo [gaires](https://google.github.io/styleguide/Rguide.html)
-* R pagrindai, tvarkingos lentelės ir jų manipuliacija
+* GitHub and version control
+* Tidy R code [style](https://google.github.io/styleguide/Rguide.html)
+* Basics of R, tidy tables, table manipulation
 
 ### Class2 (2019-11-13)
 * essential model building knowledge - bootstrap, cross-validation, bias variance trade-off, model evaluation
@@ -28,17 +28,17 @@
 * some other stuff from unsupervised learning?
 
 ### Class8 (2019-12-04)
-* projektinių darbų pristatymai
+* course project presentations
 
 
-# kita informacija
+# Other information
 
-### Kontaktai:
-Galima kreiptis, jei kyla klausimų:
-
-Vita Tomkutė - vita.tomkute@gmc.vu.lt
+### Contacts:
+If you have any questions, feel free to write to us:
 
 Erinija Pranckevičienė - 
+
+Vita Tomkutė - vita.tomkute@gmc.vu.lt
 
 ### nestruktūrizuota informacija kursams
 Geri video apie neuroninius tinklus https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi
