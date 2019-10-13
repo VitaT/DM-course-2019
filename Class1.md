@@ -1,19 +1,19 @@
 # Class1
 
 #### Github 
-* užduotelė: https://lab.github.com/githubtraining/introduction-to-github
-* trumpi video tiems kas nori pakartot ką girdėjo: ....
+* exercise: https://lab.github.com/githubtraining/introduction-to-github
+* short explanatory videos: ....
 
-#### Jei jaučiatės gan nedrąsiai su R
-* 
-* daugiau užduočių ir teorijos: R for datascience http://r4ds.had.co.nz/
-* jei norite tapti R asais (šitam kursui nebūtina): Advanced R https://adv-r.hadley.nz/
+#### If you'r new to R
+* R crash course: 
+* more exercises and theory: R for datascience http://r4ds.had.co.nz/
+* for those who wish to become R specialists (not needed for this course - just for fun): Advanced R https://adv-r.hadley.nz/
 
-#### info apie tvarkingą darbą
+#### about tidy and reproducible data analysis work
 * https://google.github.io/styleguide/Rguide.html
 * https://style.tidyverse.org/
 * https://worldpece.org/sites/default/files/datastyle.pdf
 
-#### užduotys
+#### exercises
 * Class1.Rmd 
 
