@@ -1,0 +1,5 @@
+#ignore those files
+*.RDS
+*.bam
+*.sam
+*.fasta
