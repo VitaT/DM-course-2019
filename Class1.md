@@ -1,11 +1,15 @@
 # Class1
 
-#### Github 
-* exercise: https://lab.github.com/githubtraining/introduction-to-github
-* short explanatory videos: ....
+#### exercises
+* Rex1_students.R
+* Rex2_students.R
 
-#### If you'r new to R
-* R crash course: 
+#### Homework:
+* watch https://www.youtube.com/watch?v=K-ss_ag2k9E
+* 
+
+
+#### If you are new to R
 * more exercises and theory: R for datascience http://r4ds.had.co.nz/
 * for those who wish to become R specialists (not needed for this course - just for fun): Advanced R https://adv-r.hadley.nz/
 
@@ -13,7 +17,4 @@
 * https://google.github.io/styleguide/Rguide.html
 * https://style.tidyverse.org/
 * https://worldpece.org/sites/default/files/datastyle.pdf
-
-#### exercises
-* Class1.Rmd 
 
