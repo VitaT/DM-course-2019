@@ -12,7 +12,10 @@ Vita Tomkutė - vita.tomkute@gmc.vu.lt
 
 # Other information
 
+### Literature
 
+Some of the books you can find here:
+https://drive.google.com/open?id=1TBolmwLNkXpRC1h1rUg3l2SKTKbo75lj
 
 
 
