@@ -7,8 +7,7 @@
 * ex3_ExploratoryDataAnalysis_students.R
 
 
-
-#### playlist of videos for revision
+#### playlists of videos for revision
 * Linear algebra https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
 * Statistics fundamentals https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9
 
@@ -23,3 +22,5 @@
 * https://style.tidyverse.org/
 * https://worldpece.org/sites/default/files/datastyle.pdf
 
+#### Homework:
+* try to find the themes we talked about this week and also the ones for next week and watch those short video https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF
