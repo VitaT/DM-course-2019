@@ -1,3 +1,12 @@
+
+--------------------------
+Attention !
+-------------------
+
+in preparation for next week, please read chapter 4 "Classification" and chapter 6 "Linear Model Selection and Regularization" from Gareth James et.al. book  "An Introduction to Statistical Learning with Applications in R".  You can find the book here: http://faculty.marshall.usc.edu/gareth-james/ISL/ 
+In the end of each chapters there are short "labs" that illustrate how to implement chapter material in R. I recommend to look through them too. 
+
+
 # Data Mining course 2019 Autumn
 
 Hi everyone, this will be our main repository for the material related to this course.
