@@ -1,12 +1,11 @@
 # week2 R exercises
-
 library(data.table)
 library(dplyr)
 library(ggplot2)
 library(ISLR)
 library(MASS)
 
-library(tree)   # for simple tree (clasification, regression)
+library(C50)   # for simple tree (clasification, regression)
 library(randomForest)   # for randomForest and bagging
 library(gbm)   # for boosting
 
@@ -23,24 +22,23 @@ dim(Carseats)
 
 ## WE want to convert  continiuos variable Sales as a binary one: High Sales (yes/no)
 High <- ifelse(Carseats$Sales <= 8, "No", "Yes")
+Carseats <- Carseats[, -which(colnames(Carseats) == "Sales")]
 Carseats <- data.frame(Carseats, High)
 
 ## fitting a tree model
-tree.fit <- tree(High ~ . - Sales, data = Carseats)   # -Sales is used to exclude sales column as predictor
+tree.fit <- C5.0(High ~ ., data = Carseats)   
 
 summary(tree.fit)
 plot(tree.fit)
-text(tree.fit, pretty = 0, cex = 0.75)   # pretty = 0 displays full category names, while pretty = 1 displays just 1st letter of category
 
-## ok, we know how to fit tree function. Now we vant some more reliable statistics about model performance
+## Now we vant some more reliable statistics about model performance
 ## spliting data to train-validate
 set.seed(2)
 trainID <- sample(1:nrow(Carseats), round(nrow(Carseats)*0.6, digits = 0))  
-tree.fit <- tree(High ~ . -Sales, data = Carseats, subset = trainID)   # some functions allow to give us to give only training ID vector and full data -- the subseting to create training dataset happens inside function
+tree.fit <- C5.0(High ~ ., data = Carseats, subset = trainID)   # some functions allow to give us to give only training ID vector and full data -- the subseting to create training dataset happens inside function
 
 ## model results
 plot(tree.fit)
-text(tree.fit, pretty = 0, cex = 0.75)
 summary(tree.fit)
 
 # prediction

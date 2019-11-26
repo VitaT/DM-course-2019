@@ -1,16 +1,11 @@
-library(tidyverse)
-library(ggplot2)
-library(tree)
-library(randomForest)
-library(gbm)
-library(gridExtra)
+library(pacman)
+p_load(gridExtra, gbm, tree, randomForest, ggplot2, tidyverse)
 
 #### Reading data ####
-
-in_data   = read_rds("data/insurance.train.rds")
-predict = read_rds("data/insurance.prediction.rds") 
+in_data <- read_rds("../data/insurance.train.rds")
+predict <- read_rds("../data/insurance.prediction.rds") 
 # This is the unknown data to submit predictions for!
-cat(read_file("data/insurance.README.md"))
+#cat(read_file("../data/insurance.README.md"))
 
 
 #### Splitting the train data into training and test set ####

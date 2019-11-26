@@ -10,6 +10,7 @@ library(ggplot2)
 data(iris)
 
 ## create segments for 5 -fold validation
+set.seed(3)
 ind<-sample(150)
 f1_tr<-c(1:119)
 f1_te<-c(120:150)
@@ -34,12 +35,15 @@ knn1_model<-knn(iris_train[,1:4],iris_test[,1:4],iris_train$Species,k=1)
 # confusion table
 table(knn1_model,iris_test$Species)
 # true sample numbers = row.names(iris_test)
+dTmp <- data.table(pred = knn1_model, true = iris_test$Species)
+iris_test[which(dTmp$pred != dTmp$true), ] 
 
-knn3_model<-knn(iris_train[,1:4],iris_test[,1:4],iris_train$Species,k=3)
+knn3_model<-knn(iris_train[,1:4],iris_test[,1:4],iris_train$Species,k=100)
 # confusion table
 table(knn3_model,iris_test$Species)
 
-
+iris_train[rownames(iris_train) == "71", ]
+knn3_model[rownames(knn3_model) == "71", ]
 # different fold
 #iris_train<-iris[ind[f5_tr],]
 #iris_test<-iris[ind[f5_te],]
@@ -83,7 +87,7 @@ nb_model<-naiveBayes(Species~.,data=iris_train)
 ## predict on the test data
 nb_model_prediction_prob<-predict(nb_model,iris_test[,1:4],type="raw")
 ## Probabilities of the classes
-head(nb_model_prediction_prob)
+head(round(nb_model_prediction_prob, digits = 0))
 
 nb_model_prediction_class<-predict(nb_model,iris_test[,1:4],type="class")
 table(nb_model_prediction_class, iris_test$Species)
@@ -95,7 +99,7 @@ table(nb_model_prediction_class, iris_test$Species)
 ## Prepare data for Setosa versus Versicolor
 i<-iris$Species!="virginica"
 iris_setver <- iris[i,]  
-
+?xls
 ## and Versicolor versus virginica
 i<-iris$Species!="setosa"
 iris_virver <- iris[i,]  
