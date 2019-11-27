@@ -5,6 +5,7 @@ Attention !
 --------------------
 
 Exam date: 2019-12-10 12pm-15pm
+
 place: room 226 
 
 
