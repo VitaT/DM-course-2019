@@ -4,9 +4,9 @@
 
 --------------------
 
-*Exam date: 2019-12-10 12pm-15pm*
+**Exam date: 2019-12-10 12-15pm**
 
-*place: room 226* 
+**place: room 226** 
 
 
 # Data Mining course 2019 Autumn
