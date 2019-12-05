@@ -8,6 +8,7 @@
 
 **place: room 226** 
 
+List of more detailed exam themes can be found in "Exam_themes_.pdf" document 
 
 # Data Mining course 2019 Autumn
 
